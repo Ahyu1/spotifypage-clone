@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&family=Roboto:wght@500&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&family=Righteous&family=Roboto:wght@500&family=Rubik+Vinyl&display=swap');
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.abc {
+    text-decoration: none;
+}
+
+body {
+    height: 3700px;
+}
+/*============ HEADERS ============*/
+
+.blue-header {
+    position:relative;
+    top:0;
+    width: 100%;
+    background-color: rgb(0, 119, 255);
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    margin:auto
+}
+
+.black-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    height:82px;
+}
+
+.nav-items, .header-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: 76px;
+    right:0
+}
+
+.nav-items {
+    margin-left: 580px; 
+}
+
+.icon {
+    width: 40px;
+    border-radius: 50%;
+}
+
+p {
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+li:hover {
+    color: rgb(34, 180, 34)
+}
+
+button {
+    color:#fff;
+    font-size:24px;
+    background-color: rgb(0, 119, 255);
+    border: none;
+    margin-top: 6px; 
+}
+
+/*=========== MAIN SEC =========== */
+
+.intro {
+    display: flex;
+    background-color: blue
+}
+
+.main-left {
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+
+.main-left h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 680px;
+    /*  color: rgb(58, 230, 58) */
+}
+
+.main-left h6 {
+    color: #000;
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 30px;
+    width: 600px;
+}
+
+.main-left p { 
+    color:#000;
+    text-decoration: none;
+}
+
+.center {
+    margin-top: 25px;
+    border-radius: 12px;
+    border:solid;
+    border-color: #fff;
+    box-shadow: 0 0 35px gray;
+    padding-top: 25px;
+    padding-bottom: 34px;
+    padding-left:28px;
+    padding-right: 28px; 
+    position:absolute;
+    right: 150px;
+    
+}
+
+image {
+    position: absolute;
+    right:0
+}
+
+.top-song {
+    display: flex;
+    align-items: center;
+}
+
+h2, h5, h3 {
+    font-family: sans-serif;
+}
+
+.lyrics, .footer-logo {
+    margin-top: 20px;
+}
+
+
+.lyrics h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.title-artist {
+    margin-left: 11px;
+}
+
+#go-premium, #learn-more {
+    color:#fff;
+    font-family:sans-serif;
+    font-size: small;
+    font-weight: bold;
+    background-color: rgb(32, 185, 32);
+    border-radius: 28px;
+    padding: 15px 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#go-premium:hover, #learn-more:hover {
+    transform: scale(0.8);
+}
+
+#learn-more {
+    color:rgb(32, 185, 32);
+    background-color: #fff;
+    border:solid rgb(32, 185,32);
+    border-width: 1px;
+}
+
+.buttons { margin-bottom: 40px;}
+
+img#ed-album {
+    box-shadow: 0 0 35px green;
+    position:absolute;
+    right: 20px;
+    top:170px;
+}
+
+img#the1975-album {
+    box-shadow: 0 0 30px gray;
+    position: absolute;
+    right: 50px;
+    top: 310px;
+    opacity: 1
+}
+
+img#bornpink-album {
+    box-shadow: 0 0 30px gray;
+    position: absolute;
+    right: 80px;
+    top: 450px;
+}
+
+section {
+    display: block
+}
+/* ========== SECTION 2 =========== */
+.content-box {
+    background-color: rgb(43, 209, 43);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.content-items h1, .content-items h5{
+    color:black;
+
+}
+
+.content-items button {
+    color: rgb(41, 247, 41);
+    background-color: black;
+    border-radius: 28px;
+    padding: 15px 30px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: small
+}
+
+.content-items button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+/* ======== THIRD SECTION ======= */
+
+.premium-features {
+    display: flex;
+}
+
+.premium-features p {
+    color:#000
+}
+
+.premium-box {
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.pf, .pf-ad {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.pf-ad { margin-top: 20px;}
+.pf-ad h3 {margin-top: 0px;}
+
+.pf h3 {
+    margin-top: 20px;
+}
+
+.pf p, .pf-ad p {
+    text-decoration: none;
+    font-size: medium;
+}
+
+/* ============= SECTION 4 (TOP ARTIST) ============== */
+
+.topArtist-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    margin-top: 48px;
+}
+.table {
+    border-radius: 23px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.artist-icon {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.artist-icon:hover {
+    box-shadow: 0 0 40px rgb(41, 247, 41);
+    transition: 0.5;
+}
+
+a { color:#fff; text-decoration: none;}
+
+td {
+    color: #fff;
+    font-weight: bold;
+}
+
+tr td {
+    text-transform: uppercase;
+}
+
+tr td:hover, a:hover {
+    color:rgb(32, 185, 32);
+    text-shadow: 0 0 50px rgb(41, 247, 41);
+}
+
+.upper {
+    height: 70px;
+}
+
+th:first-child{
+    border-top-left-radius: 15px;
+}
+
+th:last-child{
+    border-top-right-radius: 15px;
+}
+
+.tA-btn {
+    text-transform: uppercase;
+    width: 500px;
+    text-align: start;
+    font-size: 75px;
+    padding-left: 20px;
+    font-family: 'Righteous', cursive;
+    background-color: #000;
+    color: rgb(58, 240, 58);
+    border-right: solid 9px rgb(58, 240, 58);
+    border-bottom: solid 10px rgb(58, 240, 58);
+    position: absolute;
+    top: 1470px;
+    left: 120px;
+    text-shadow: 4px 3px #fff;
+    box-shadow: 8px 8px #fff;
+}
+
+.ftm-image {
+    position: relative;
+    top: 60px;
+    left: 190px;
+    opacity: 0.4
+}
+
+.typing-text {
+    position:relative;
+    top: 300px;
+    left: 110px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    width: 500px;
+    font-size:larger
+}
+
+span {
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.music-bars {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1910px;
+    left: 130px;
+
+}
+
+.mb {
+    width:30px;
+}
+
+/* ================================================================ PICK YOUR PREMIUM SECTION ============================================= */
+
+.premium-plans {
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.pp-header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.pp-header h1 { font-size: 36px;}
+
+.pp-header h5 {
+    font-weight: 100;
+    font-size: 16px;;
+}
+
+.pp-boxes {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.plan1-box, .plan2-box, .plan3-box, .plan4-box{
+    background-color: #fff;
+    box-shadow: 0 0 10px gray;
+    border-radius: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.p-top {
+    border-bottom: 1px solid black;
+    height: 200px;
+}
+
+.p-type { font-size: 24px;}
+
+.otb{
+    color: rgb(36, 99, 235);
+    font-size: 15px;
+    padding: 5px 7px;
+    font-weight:bold;
+    background-color: #fff;
+    border: 1px solid rgb(36, 99, 235);
+    border-radius: 6px;
+}
+
+.p-topBtns {
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+}
+
+.p-topBtn1 {
+    color: #fff;
+    background-color: rgb(36, 99, 235);
+    width:245px;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 6px 6px;
+    text-align:left;
+    font-weight: bolder;
+    
+}
+.p-bottom {
+    display: flex;
+    column-gap: 9px;
+}
+.check-icon {
+    width: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.check-icon3 {
+    margin-top: 0px;
+    width: 19px;
+}
+
+.check-icon2-2 {
+    margin-top: 0px;
+    width: 19px;
+    margin-bottom: 10px;
+}
+
+.check-icon2-3 {
+    width: 19px;
+}
+
+.check-icon2-4 {
+    width: 19px;
+    margin-top: 13px;
+}
+
+.check-icon3-2 {
+    margin-top: 15px;
+    width:19px;
+}
+
+.check-icon4-3 {
+    margin-top: 30px;
+    width: 19px
+}
+
+.check-icon4-4 {
+    width: 19px; margin-top: 20px;
+}
+.check-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-list p {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.first-p {
+    width: 210px;
+}
+
+.p3-p1 { width: 185px;}
+
+.p4-p1 { width: 180px;}
+
+
+.dl30 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 200px;
+}
+
+.dl-con {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.gs-btn1, .gs-btn2, .gs-btn3, .gs-btn4 {
+    width: 250px;
+    color: #fff;
+    background-color: #000;
+    font-weight: bolder;
+    border-radius: 23px;
+    font-size: 13px;
+    padding: 15px 17px;
+    
+}
+
+.gs-btn1 { margin-top: 15px;}
+.gs-btn2 { margin-top: 18px;}
+.gs-btn3 { margin-top: 65px;}
+.gs-btn4 { margin-top: 10px;}
+
+.p-top h5 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 3px;
+}
+
+.tc-text {
+    color:#000;
+    opacity: 0.8
+}
+
+.tc-text2 {
+    text-decoration: none;
+    color:#000;
+    width:200px;
+    opacity: 0.8
+}
+
+.tc {text-decoration: underline; color:#000; font-family: sans-serif; font-weight: 100}
+
+.specialDiscount-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 0 20px gray;
+    border: solid 1px #fff;
+    border-radius: 9px;
+    justify-content: center;
+    padding: 10px 9px; 
+    width: 660px;
+    align-items: center;
+    column-gap: 9px;
+    margin-top: 30px;
+    margin-left: 320px;
+}
+
+.specialDiscount-container h1 {
+    font-size: 20px;
+
+}
+
+.specialDiscount-container button {
+    color: #000;
+    border: solid 2px #000;
+    background-color: #fff;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 11px 15px;
+}
+
+/* ================================================================ FOOTER ===============================================================*/
+.footer {
+    background-color: #000;
+    height: 350px;
+    padding: 70px 50px
+}
+
+.logo-footer {
+    width: 120px;
+}
+
+.company-list ul li, .community-list ul li, .link-list ul li{
+    list-style-type: none;
+}
+.upper-sec {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 90px;
+}
+
+.footer-list { margin-left: 50px; margin-top: 150px;}
+
+.fi-fi-brands-instagram {
+    color: #fff;
+    width: 200px;
+
+}
+
+.sm-icon { width: 30px; margin-top: 5px;}
+
+.ig-btn {
+    background-color:#222326;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+
+}
+
+.community-list ul .communities, .company, .useful-links {
+    font-size: 10px;
+    color:#919496;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:1px;
+}
+
+.company-list ul li, .community-list ul li, .link-list ul li {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: medium;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;;
+}
+ 
+.social-media {
+    margin-top: 17px;
+    margin-left: 140px;
+}
+
+.lower-sec {
+    display:flex;
+    align-items:flex-end;
+}
+
+.footer-list {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight:lighter;
+    font-size: 12px;
+}
+
+.footer-list li {
+    color:#919496
+}
+
+.footer-list li:hover {
+    color: rgb(34, 180, 34)
+}
+
+.marks-footer p { color:#919496}
+
+.marks-footer {margin-left: 300px;}
